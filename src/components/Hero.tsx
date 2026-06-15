@@ -116,7 +116,7 @@ duration-300
       <video
         controls
         playsInline
-        preload="metadata"
+        preload="none"
         className="w-full h-full object-cover"
       >
         <source
