@@ -75,20 +75,26 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 mt-10">
 
-              <button className="
-bg-[#F4C400]
-text-black
-font-bold
-px-8
-py-4
-rounded-full
-hover:scale-105
-hover:shadow-[0_0_30px_rgba(244,196,0,0.4)]
-transition-all
-duration-300
-">
-                Conheça
-              </button>
+             <a
+  href="https://www.instagram.com/lagoinhazonasulcg/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    bg-[#F4C400]
+    text-black
+    px-6
+    py-3
+    rounded-full
+    font-semibold
+    hover:scale-105
+    transition
+    inline-flex
+    items-center
+    justify-center
+  "
+>
+  Conheça
+</a>
 
               <button className="border border-zinc-700 px-8 py-4 rounded-full hover:border-[#F4C400] transition">
                 Projetos
@@ -117,6 +123,7 @@ duration-300
         controls
         playsInline
         preload="none"
+        poster="/hero-poster.jpg"
         className="w-full h-full object-cover"
       >
         <source

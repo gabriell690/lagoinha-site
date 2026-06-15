@@ -34,9 +34,26 @@ export default function Navbar() {
 
         </nav>
 
-        <button className="bg-[#F4C400] text-black px-6 py-3 rounded-full font-semibold hover:scale-105 transition">
-          Visite-nos
-        </button>
+        <a
+  href="https://www.instagram.com/lagoinhazonasulcg/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    bg-[#F4C400]
+    text-black
+    px-6
+    py-3
+    rounded-full
+    font-semibold
+    hover:scale-105
+    transition
+    inline-flex
+    items-center
+    justify-center
+  "
+>
+  Visite-nos
+</a>
 
       </div>
 

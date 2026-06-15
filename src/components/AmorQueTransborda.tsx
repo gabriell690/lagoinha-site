@@ -9,7 +9,7 @@ export default function AmorQueTransborda() {
     >
       {/* Glow */}
       <div className="absolute inset-0 flex justify-center">
-        <div className="w-[600px] h-[600px] bg-[#F4C400]/10 blur-[180px] rounded-full" />
+        <div className="w-150 h-150 bg-[#F4C400]/10 blur-[180px] rounded-full" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -28,7 +28,7 @@ export default function AmorQueTransborda() {
     controls
     playsInline
     preload="metadata"
-    className="w-full h-[550px] object-cover"
+    className="w-full h-137.5 object-cover"
   >
     <source
       src="/amor-que-transborda.mp4"
@@ -76,9 +76,26 @@ export default function AmorQueTransborda() {
 
             <div className="flex flex-wrap gap-4 mt-10">
 
-              <button className="bg-[#F4C400] text-black font-bold px-8 py-4 rounded-full hover:scale-105 transition">
-                Conheça o Projeto
-              </button>
+              <a
+  href="https://www.instagram.com/lagoinhazonasulcg/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    bg-[#F4C400]
+    text-black
+    px-6
+    py-3
+    rounded-full
+    font-semibold
+    hover:scale-105
+    transition
+    inline-flex
+    items-center
+    justify-center
+  "
+>
+  Conheça o Projeto
+</a>
 
               <button className="border border-zinc-700 px-8 py-4 rounded-full hover:border-[#F4C400] transition">
                 Quero Ajudar
